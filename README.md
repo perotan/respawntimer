@@ -64,6 +64,6 @@ If you modify the contents, make(1) will generate a gtp file.
 csv --> RespawnTimer.py --> xml --> zip --> gtp --> GINA
 ```
 
-## Feedback
+# Feedback
 Please feel free to contact me for corrections and bug reports.
-tell nekomimi, nagatoyuki, chomusuke on green or DM to pero#8035.
+Tell to `nekomimi`, `nagatoyuki` or `chomusuke` on green or DM to `pero#8035`.
