@@ -9,11 +9,9 @@ Select `Download ZIP` from the green button labeled `Code` in the upper right co
  
 ## Create RespawnTimer overlay
 
-### Overlays tab
-Add Timer Overlays (watch icon) > change "Overlay#x" at center of window to "RespawnTimer" > Sort: Time Remaining > Save
+Overlays tab: Add Timer Overlays (watch icon) > change "Overlay#x" at center of window to "RespawnTimer" > Sort: Time Remaining > Save
 
-### Categories tab
-Add > Name: RespawnTimer > Timers Overlay: RespawnTimer
+Categories tab: Add > Name: RespawnTimer > Timers Overlay: RespawnTimer
 
 ## Install gtp files
 Sharing tab > Import > From GINA Package File > `RespawnTimer.gtp` and `RespawnTimeDB.gtp`
@@ -35,19 +33,26 @@ Two timers appear when you kill a mob. The timer in the name of the mob uses sla
 The second timer uses the xp log, and this log does not show what it killed. However, the xp log is helpful to chain pullers because it reaches a wide area.
 
 # Advance
+
 ## memo
 For example, if you want to make a note of a nasty mob PH that has a slightly different respawn time.
 ```
 /em ##freeti
 ```
+
 ## reset
 If you want to erase all timers when moving to another camp.
 ```
 /em ##reset
 ```
-## manually add
+
+## add manually
 For example, if you are med at a distance where slain cannot pick up and do not want to move.
 ```
 /em ## %t
 ```
 Note the space before the %. Without it, the % macro will not expand.
+
+## Feedback
+Please feel free to contact me for corrections and bug reports.
+tell nekomimi, nagatoyuki, chomusuke on green or DM to pero#8035.
