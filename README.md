@@ -12,28 +12,29 @@ Select `Download ZIP` from the green button labeled `Code` in the upper right co
  
 ## Create RespawnTimer overlay
 
-Overlays tab: Add Timer Overlays (watch icon) > change "Overlay#x" at center of window to "RespawnTimer" > Sort: Time Remaining > Save
-
-Categories tab: Add > Name: RespawnTimer > Timers Overlay: RespawnTimer
+- Overlays tab: Add Timer Overlays (watch icon) > change "Overlay#x" at center of window to "RespawnTimer" > Sort: Time Remaining > Save
+- Categories tab: Add > Name: RespawnTimer > Timers Overlay: RespawnTimer
 
 ## Install gtp files
-Sharing tab > Import > From GINA Package File > `RespawnTimer.gtp` and `RespawnTimeDB.gtp`
+- Sharing tab: Import > From GINA Package File > `RespawnTimer.gtp` and `RespawnTimeDB.gtp`
 
 ## Config
-Select the character in the pane on the left side of `GINA` and check the checkbox at the top of the `Respawn Time DB` tree.
-Leave the `Respawn Timer` unchecked for now.
+Select the character in the pane on the left side of `GINA` and check the checkbox at the top of the `Respawn Time DB` tree. Leave the `Respawn Timer` unchecked for now.
 
 ## Start camp
 When you zone or run the `/` or `/who` command, the respawn time for the zone you are in is displayed as a timer.
-Find that time in the `Respawn Timer` tree and check it. As you kill mobs, the respawn time for each mob will line up.
+Find that time in the `Respawn Timer` tree and check it.
+
+![gina_ss](https://user-images.githubusercontent.com/31529757/184545007-ac9527cd-d25f-4b58-86fc-7962d0fc9b78.png)
+
+As you kill mobs, the respawn time for each mob will line up.
 
 ```
-A Death Beetle
-^^^^^
+00:21:55  Garanel Rucksif
+00:21:55  ^^^^^
 ```
 
-Two timers appear when you kill a mob. The timer in the name of the mob uses slain logs. It is only valid for tanks and melees, as it only appears when you are near them when you kill them.
-The second timer uses the xp log, and this log does not show what it killed. However, the xp log is helpful to chain pullers because it reaches a wide area.
+When you kill a mob (and get xp) two timers appear. The timer with the mob name uses slain logs. slain logs are effective only for tanks and melee because the range of the slain logs is very small and you have to be close by. The second timer remedies that problem. xp log doesn't say what died, but this log reaches wide area. It would help the chain puller.
 
 # Advance
 
