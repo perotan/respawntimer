@@ -75,3 +75,6 @@ csv --> RespawnTimer.py --> xml --> zip --> gtp --> GINA
 
 Please feel free to contact me for corrections and bug reports.
 Tell to `nekomimi`, `nagatoyuki` or `chomusuke` on green or DM to `pero#8035`.
+
+- [Blog](https://perotanz.hatenablog.com/) Japanese only
+- [Youtube](https://www.youtube.com/channel/UCaiqOuafRo60r2wfcNXrbHQ)
