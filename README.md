@@ -1,15 +1,15 @@
-# RespawnTimeDB.gtp, RespawnTimer.gtp
+This GINA package can display respawn times per zone. It can also display timers for each mob.
 
 #GINA #Project1999 #EverQuest
 
-![unrest2s](https://user-images.githubusercontent.com/31529757/185756808-d95cc543-b886-4620-b749-fe339191f1eb.png)
+![ser-images.githubusercontent.com/31529757/185756808-d95cc543-b886-4620-b749-fe339191f1eb.png)
 
 This GINA package can display respawn times per zone. It can also display timers for each mob.
 
 - Displays respawn times by zone: RespawnTimeDB.gtp
 - Show mob timer: RespawnTimer.gtp
 
-# How to use
+How to use
 
 ## Download
 To download the file, select `Download ZIP` from the green button labeled `Code` in the upper right corner of this page.
